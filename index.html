@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Films with the most gross</h1>
+    <div class="search-sort-container">
+        <input type="text" id="search" placeholder="Search by name...">
+        <button id="sort">Sort by year</button>
+    </div>    
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Year</th>
+                <th>Name</th>
+                <th>Director</th>
+                <th>Countries</th>
+                <th>Gross</th>
+            </tr>
+        </thead>
+        <tbody id="films-table">
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
